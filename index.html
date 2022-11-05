@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our - Partners</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+
+    
+</head>
+<body>
+        <div class="container font-weight-bold">
+                <h2 class="text-center font-weight-bold">Our  Partners</h2>
+                 <section class="customer-logos slider">
+                    <div class="slide"><a href="#"><img src="images/adidas.png" alt=""></a></div>
+                    <div class="slide"><a href="#"><img src="images/facebook.png" alt=""></a></div>
+                    <div class="slide"><a href="#"><img src="images/google.png" alt=""></a></div>
+                    <div class="slide"><a href="#"><img src="images/instagram.png" alt=""></a></div>
+                    <div class="slide"><a href="#"><img src="images/nike.png" alt=""></a></div>
+                    <div class="slide"><a href="#"><img src="images/twitter.png" alt=""></a></div>
+                    <div class="slide"><a href="#"><img src="images/uber.png" alt=""></a></div>
+                    <div class="slide"><a href="#"><img src="images/youtube.png" alt=""></a></div>                  
+                 </section>
+              </div>
+      
+
+    <p class="copy text-center font-weight-bold">All Rights Reserved &copy; Make Dev</p>
+    
+    <script>
+
+                $(document).ready(function(){
+                    $('.customer-logos').slick({
+                        slidesToShow: 6,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 1500,
+                        arrows: false,
+                        dots: false,
+                        pauseOnHover: false,
+                        responsive: [{
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 4
+                            }
+                        }, {
+                            breakpoint: 520,
+                            settings: {
+                                slidesToShow: 3
+                            }
+                        }]
+                    });
+                });
+                
+      </script>
+
+
+</body>
+</html>
